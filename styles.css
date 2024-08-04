@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #00f;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  background-color: #0fff00;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.nav-links ul li {
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #0ff;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
+  display: inline-flex;
+}
+
+.nav-links ul li a {
+  color: #500;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.nav-links ul li a:hover {
+  color: #500;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.container img {
+  height: 500px;
+  max-width: 700px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.container h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #fff;
+  color: #f00;
+}
+
+.container h6 {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 25px;
+  color: #ccc;
+  text-decoration: underline;
+} 
+
+.container p {
+  font-size: 25px;
+}
+
+.container pre i {
+  font-size: 10px;
+  background-color: gray;
+  box-shadow: 1px 1px 1px #fff;
+}
+
+.container a {
+  color: #f00;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #500;
+  text-decoration: underline;
+}
+
+.footer footer {
+  background-color: #f00;
+  box-shadow: 1px 1px 1px #fff;
+  color: #fff; 
+}
+
+.footer p {
+  font-size: 25px;
+  background-color: #f00;
+  color: #fff;
+}
